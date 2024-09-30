@@ -44,8 +44,22 @@ plt.plot(X,Y_pred,color="red")
 plt.show()
 ````
 ## Output:
+## Output:
 
-![01](https://github.com/user-attachments/assets/91912802-ecb5-46c6-a9b5-9f4bf098b06a)
+## input values are 
+![Screenshot 2024-09-27 190358](https://github.com/user-attachments/assets/ef2965ca-df4a-423f-a34e-0c37f72e742c)
+
+
+## slope:
+![Screenshot 2024-09-27 190405](https://github.com/user-attachments/assets/832d6778-2626-4c42-bcfb-87b0c0ceec2e)
+
+
+## y_intercept:
+![Screenshot 2024-09-27 190415](https://github.com/user-attachments/assets/1bb1dc5a-6b6b-48c4-a55e-830aa9b98c6a)
+
+
+## y_predict:
+![Screenshot 2024-09-27 191657](https://github.com/user-attachments/assets/48ef3c13-4946-4d9a-aadc-0f8a0def32b0)
 
 
 
