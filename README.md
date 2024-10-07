@@ -36,31 +36,22 @@ for i in range(len(X)):
   den+=(X[i]-Xmean)**2
 m=num/den
 c=Ymean-m*Xmean
-print(m,c)
+print('Slope:',m)
+print('Y Intercept:',c)
 Y_pred=m*X+c
-print(Y_pred)
+print('Y Predict:')
+Y_pred
 plt.scatter(X,Y)
 plt.plot(X,Y_pred,color="red")
 plt.show()
 ````
 ## Output:
 
-## input values are 
-![image](https://github.com/user-attachments/assets/6bea0a30-640d-49de-8e3d-494e3b304090)
+![image](https://github.com/user-attachments/assets/43a1f720-f652-4bb0-aa28-97ff104a3c4a)
 
+![image](https://github.com/user-attachments/assets/8c17ceee-6389-42a3-a2f6-209c85e68b9a)
 
-
-## slope:
-![image](https://github.com/user-attachments/assets/b19f2d9d-8af1-4d01-a97c-b6e7e0fe13ef)
-
-
-## y_intercept:
-![image](https://github.com/user-attachments/assets/55e462c2-2d7c-41c7-816b-0628b4b1ffb2)
-
-
-
-## y_predict:
-![image](https://github.com/user-attachments/assets/29fcc904-4947-4837-a766-a1400c2c3acd)
+![image](https://github.com/user-attachments/assets/f9ab633f-1afe-4fd7-931a-4a5ead9a9656)
 
 
 ## Result:
